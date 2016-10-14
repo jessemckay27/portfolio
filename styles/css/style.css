@@ -8,37 +8,92 @@ body {
   background-color: #f6f6f6;
 }
 
-h1 {
-  background-color: #ffffff;
+#my-name {
+  margin-top: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  float: right;
+  padding-right: 5px;
+  font-size: 3.5em;
+
 }
 
 .container-fluid {
   padding: 0;
   margin: 0;
 }
-.container-fluid:first-child {
-  background-color: #ffffff;
-  border-bottom: 1px solid #d5d5d5;
+
+#header-bar {
+    height: 100px;
+    background-color: #3fa9f5;
 }
 
 .img-bg {
   background: url(../../img/classroom.jpg);
-  height: 400px;
+  height: 300px;
   background-size: cover;
   background-position: center;
-  opacity: 50%;
 }
 
-.col-md-4 {
+.img-bg .row {
+  margin-top: -80px;
+}
+
+#photo-wrap {
+  height: 160px;
+  width:  160px;
+  border-radius: 100%;
+}
+
+#photo-wrap img{
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+
+#skills {
+  border-bottom: 1px solid #a6a6a6;
+  font-size: 4em;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.col-md-6 {
+  padding: 0;
 }
 
 .col-md-4 .col-md-12 {
   border: 1px solid #a6a6a6;
   background-color: #ffffff;
   margin-bottom: 30px;
+  border-radius: 10px;
+  min-width: 180px;
+}
+
+.col-md-4 .col-md-12 div {
+  margin-bottom: 10px;
 }
 
 .col-md-12 img {
-  width: 328px;
-  height: 164px;
+  margin: auto;
+  width: 100%;
+  border: 1px solid #a6a6a6;
+}
+
+
+.col-md-12 p:first-of-type {
+  color: red;
+  float: right;
+}
+
+.col-md-12 ul {
+  padding-left: 20px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
