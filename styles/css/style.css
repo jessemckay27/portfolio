@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  background-color: #ffffff;
+}
+
+#header-style {
+  border-bottom: 1px solid #e5e5e5;
+}
