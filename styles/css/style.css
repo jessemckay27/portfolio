@@ -15,7 +15,6 @@ body {
   float: right;
   padding-right: 5px;
   font-size: 3.5em;
-
 }
 
 .container-fluid {
@@ -52,11 +51,15 @@ body {
   border: 5px solid #fff;
 }
 
-#skills {
-  border-bottom: 1px solid #a6a6a6;
-  font-size: 4em;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
+.skills {
+  font-size: 3em;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  font-size: 1.5em;
+  color: red;
 }
 
 .col-md-6 {
@@ -81,8 +84,7 @@ body {
   border: 1px solid #a6a6a6;
 }
 
-
-.col-md-12 p:first-of-type {
+p em {
   color: red;
   float: right;
 }
@@ -96,4 +98,17 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+}
+
+#about-me p {
+  font-size: 1.25em;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+}
+
+#about-me h2 {
+  font-size: 3em;
+  padding-bottom: 10px;
 }
