@@ -5,13 +5,40 @@ html, body {
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #f6f6f6;
 }
 
 h1 {
   background-color: #ffffff;
 }
 
-#header-style {
-  border-bottom: 1px solid #e5e5e5;
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.container-fluid:first-child {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.img-bg {
+  background: url(../../img/classroom.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  opacity: 50%;
+}
+
+.col-md-4 {
+}
+
+.col-md-4 .col-md-12 {
+  border: 1px solid #a6a6a6;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.col-md-12 img {
+  width: 328px;
+  height: 164px;
 }
